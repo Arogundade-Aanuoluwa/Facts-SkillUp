@@ -1,13 +1,13 @@
 
 const iFact = document.createElement("h1");
 
-// This is the root url for te Rest API
+// This is the root url for te Rest APIs
 const baseUrl =  "https://catfact.ninja";
-// This url gets a particular fact
+// This url gets a particular facts
 const itemUrl = `${baseUrl}/fact`;
 
 
-// This is a config object for the fecth function
+// This is a config object for the fecth functions
 const options = {
       method: "GET",
       headers: {
@@ -15,7 +15,7 @@ const options = {
       },
 };
 
-// This request gets random fact from the url
+// This request gets random fact from the urls
 
 setInterval(() => {
       fetch(itemUrl, options)
